@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>hankeme_pprevival</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Re-enables PayPal Standard Website Payments in Magento 1.9.</summary>
+    <description>PayPal API has changed in Magento Core Version 1.9+ setting the good old Website Payment standard as deprecated. The new Express Gateway has been set as the new Default. &#xD;
+However the new Express Gateway is incompatible with some local Laws (e.g. Germany) as it forces Users to leave Checkout and pay for their Order BEFORE they reach the Order Review Page and hit the final Confirmation Button.&#xD;
+This Extensions re-enables the Paypal Standard Website Payment</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Jan Strohmeier</name><user>hankeme_de</user><email>jan.strohmeier@hanke.me</email></author></authors>
+    <date>2015-02-13</date>
+    <time>13:49:16</time>
+    <contents><target name="magecommunity"><dir name="Hankeme"><dir name="Pprevival"><dir name="Helper"><file name="Data.php" hash="d7073c630c0d9f0ae9441cd72553790d"/></dir><dir name="etc"><file name="config.xml" hash="6e7b0b812e269046a2ffa7ec976fb89d"/><file name="system.xml" hash="8983ff7eb790770ed8037103d4a4d1b4"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Hankeme_Pprevival.xml" hash=""/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.0</max></php></required></dependencies>
+</package>
