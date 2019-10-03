@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Hankeme_Pprevival",
+    "name": "OpenMageModuleFostering\/Hankeme_Pprevival",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL-3.0)",
     "homepage": "",
     "description": "Re-enables PayPal Standard Website Payments in Magento 1.9.",
     "authors": [
-    {
-        "name": "Jan Strohmeier",
-        "email": "jan.strohmeier@hanke.me"
-    }
-],
+        {
+            "name": "Jan Strohmeier",
+            "email": "jan.strohmeier@hanke.me"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
